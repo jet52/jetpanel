@@ -1,4 +1,4 @@
-# jetpanel
+# jetpanel v1.0.0
 
 Multi-perspective legal analysis panel for close questions of statutory or constitutional interpretation. A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill.
 
