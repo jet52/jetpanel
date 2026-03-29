@@ -2,7 +2,7 @@ SKILL_NAME := jetpanel
 VERSION := $(shell cat VERSION)
 ZIP_NAME := $(SKILL_NAME)-skill-v$(VERSION).zip
 
-.PHONY: package clean install test
+.PHONY: package clean test
 
 package: clean
 	mkdir -p $(SKILL_NAME)-skill
@@ -13,9 +13,6 @@ package: clean
 
 clean:
 	rm -f $(SKILL_NAME)-skill*.zip
-
-install:
-	python3 install.py
 
 test:
 	@echo "Validating skill structure..."
