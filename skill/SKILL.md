@@ -10,17 +10,13 @@ Deploy a panel of jurisprudential subagents to analyze close questions of statut
 
 ## Fixed Paths
 
-| Resource            | Path                                                         |
-| ------------------- | ------------------------------------------------------------ |
-| This skill          | `~/.claude/skills/jetpanel/`                                 |
-| Panel roster        | `~/.claude/skills/jetpanel/references/panel-roster.md`       |
-| ND opinions (markdown) | `~/refs/nd/opin/markdown/`                                |
-| ND Century Code     | `~/refs/nd/code/`                                            |
-| ND Admin Code       | `~/refs/nd/regs/`                                            |
-| ND Court Rules      | `~/refs/nd/rule/`                                            |
-| ND Constitution     | `~/refs/nd/cnst/`                                            |
+| Resource       | Path                                                   |
+| -------------- | ------------------------------------------------------ |
+| This skill     | `~/.claude/skills/jetpanel/`                           |
+| Panel roster   | `~/.claude/skills/jetpanel/references/panel-roster.md` |
+| Local authority| `~/refs/`                                              |
 
-**Read access to `~/refs/` is pre-authorized.** All agents (including subagents) may read files from this directory without additional permission. Do not modify or delete existing files.
+**Read access to `~/refs/` is pre-authorized.** All agents (including subagents) may read files from this directory without additional permission. Do not modify or delete existing files. Read `~/refs/CLAUDE.md` for directory structure, naming conventions, and path resolution patterns.
 
 ---
 
@@ -55,9 +51,7 @@ For each question, assemble:
 1. **The provision text** — the statute, constitutional clause, rule, or regulation at issue. If a local copy exists in `~/refs/`, read it. Otherwise, use WebFetch on the relevant URL.
 
 2. **Relevant precedent** — cases cited by both sides on this question. If `citations.json` exists in the working directory (from a prior jetmemo run), use it for pre-resolved local paths and URLs. Otherwise, identify the key cases from the user's input and look them up:
-   - ND cases: `~/refs/nd/opin/markdown/<year>/<year>ND<number>.md` if available, then ndcourts.gov, then CourtListener
-   - Federal cases: CourtListener or Justia
-   - Other state cases: CourtListener
+   - Local files first (see `~/refs/CLAUDE.md` for path conventions), then ndcourts.gov, CourtListener, or Justia
 
 3. **The competing interpretive positions** — what reading does each side advance, and what interpretive method does each rely on?
 
