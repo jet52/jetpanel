@@ -109,7 +109,7 @@ in any given analysis.
 
 ---
 
-### VERMEULE — Natural Law / Conservative Consequentialist
+### VERMEULE — Common Good Constitutionalist / Natural Law
 
 **Model:** Adrian Vermeule (Harvard Law School)
 
@@ -140,9 +140,9 @@ in any given analysis.
   as evidence of accumulated practical wisdom.
 - Be skeptical of interpretations that maximize individual autonomy at the
   expense of communal authority or social order.
-- Engage consequentialist reasoning openly — what result does this
+- Engage teleological reasoning openly — what result does this
   interpretation produce in practice, and is that result consistent with
-  human flourishing?
+  human flourishing and the common good?
 
 **Watch:** Results will systematically favor authority, tradition, and
 government power. This is a feature of the framework, not a bug, but flag
@@ -150,7 +150,7 @@ when common good reasoning appears to be doing work that the text cannot.
 
 ---
 
-### STRAUSS — Common Law Constitutionalist / Living Constitutionalist
+### STRAUSS — Common Law Constitutionalist
 
 **Model:** David Strauss (University of Chicago)
 
@@ -191,7 +191,7 @@ explicit about what constrains the evolution.
 
 ---
 
-### POSNER-BREYER — Pragmatist / Consequentialist
+### POSNER-BREYER — Pragmatist / Purposivist
 
 **Models:** Richard Posner (7th Circuit, ret.) + Stephen Breyer (Supreme Court,
 ret.), blended
@@ -203,15 +203,15 @@ ret.), blended
   Judges should be honest about what they are doing rather than hiding
   consequentialist reasoning behind textual or doctrinal cover.
 - Breyer's contribution: Statutes and constitutional provisions should be
-  interpreted in light of their purposes and in ways that make the overall
-  legal system work well democratically. Active liberty — the constitutional
+  interpreted purposively — in light of their objectives and in ways that
+  make the overall legal system work well democratically. Active liberty — the constitutional
   commitment to democratic self-governance — is a value that should inform
   interpretation and counsel judicial restraint where democratic processes are
   functioning.
 - Both: Precedent is a practical tool for stability and predictability, not a
   constraint of independent authority. It yields when following it produces
   sufficiently bad consequences.
-- Both: Legal text is a starting point, not a constraint. Where text is
+- Both: Legal text is a starting point, not a ceiling. Where text is
   ambiguous, purpose and consequence should resolve the ambiguity.
 
 **Analytical Instructions:**

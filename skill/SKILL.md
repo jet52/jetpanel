@@ -70,9 +70,9 @@ For each question, assemble:
 **Starting panel (always deployed):**
 - MANNING (Statutory Formalist / Textualist)
 - BARNETT-SOLUM-THOMAS (Originalist)
-- VERMEULE (Natural Law / Conservative Consequentialist)
-- STRAUSS (Common Law Constitutionalist / Living Constitutionalist)
-- POSNER-BREYER (Pragmatist / Consequentialist)
+- VERMEULE (Common Good Constitutionalist / Natural Law)
+- STRAUSS (Common Law Constitutionalist)
+- POSNER-BREYER (Pragmatist / Purposivist)
 
 **Bullpen evaluation:** If the question is constitutional, evaluate PAULSEN's activation criteria (from the roster). Deploy PAULSEN if one or more criteria are met:
 - The question involves whether judicial precedent binds non-judicial actors

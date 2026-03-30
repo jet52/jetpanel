@@ -4,15 +4,15 @@ Multi-perspective legal analysis panel for close questions of statutory or const
 
 ## What It Does
 
-Deploys a panel of five (optionally six) subagents, each representing a distinct jurisprudential methodology, to analyze the same interpretive question in parallel:
+Deploys a panel of five (optionally six) subagents, each representing a distinct jurisprudential methodology, to analyze the same interpretive question in parallel. The current roster reflects one set of interpretive approaches -- feel free to add panelists representing other interpretive approaches you want in the mix.
 
 | Panelist | Methodology | Model |
 |----------|-------------|-------|
 | MANNING | Statutory Formalist / Textualist | John F. Manning |
 | BARNETT-SOLUM-THOMAS | Originalist | Barnett + Solum + Thomas (blended) |
-| VERMEULE | Natural Law / Conservative Consequentialist | Adrian Vermeule |
+| VERMEULE | Common Good Constitutionalist / Natural Law | Adrian Vermeule |
 | STRAUSS | Common Law Constitutionalist | David Strauss |
-| POSNER-BREYER | Pragmatist / Consequentialist | Posner + Breyer (blended) |
+| POSNER-BREYER | Pragmatist / Purposivist | Posner + Breyer (blended) |
 | PAULSEN | Constitutional Supremacist / Formalist | Michael Stokes Paulsen (bullpen -- constitutional cases only) |
 
 Subagents do not see each other's analyses. Disagreement is the point. The orchestrator synthesizes convergence and divergence across methodologies.
