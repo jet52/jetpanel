@@ -2,7 +2,7 @@ SKILL_NAME := jetpanel
 VERSION := $(shell cat VERSION)
 ZIP_NAME := $(SKILL_NAME)-skill-v$(VERSION).zip
 
-.PHONY: package clean test
+.PHONY: package clean test release
 
 package: clean
 	mkdir -p $(SKILL_NAME)-skill
@@ -13,6 +13,10 @@ package: clean
 
 clean:
 	rm -f $(SKILL_NAME)-skill*.zip
+
+release: package
+	gh release create v$(VERSION) $(ZIP_NAME) --title "v$(VERSION)" --generate-notes \
+		|| gh release upload v$(VERSION) $(ZIP_NAME) --clobber
 
 test:
 	@echo "Validating skill structure..."
