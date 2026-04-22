@@ -1,6 +1,6 @@
 ---
 name: jetpanel
-version: 1.0.0
+version: 1.0.1
 description: 'Multi-perspective legal analysis panel for close questions of statutory or constitutional interpretation. Deploys subagents representing distinct jurisprudential methodologies (textualist, originalist, natural law, living constitutionalist, pragmatist) to analyze the same question in parallel, then synthesizes convergence and divergence. Use when the user provides a legal interpretive question or a bench memo with close questions. Triggers: interpretive panel, panel analysis, jetpanel, jet panel, run the panel, multi-perspective analysis, run panel analysis.'
 ---
 

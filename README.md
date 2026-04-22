@@ -89,3 +89,14 @@ Without `~/refs/`, the skill falls back to web lookups for authority.
 ## License
 
 MIT
+
+## Contributing
+
+On a fresh clone, activate the local pre-push sensitive-content check:
+
+```bash
+git config --local core.hooksPath .githooks
+```
+
+It scans commits being pushed for likely ND court dockets, confidential-case
+captions, and committed binaries. Bypass once with `git push --no-verify`.
